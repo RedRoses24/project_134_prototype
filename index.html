@@ -1,0 +1,30 @@
+<html>
+<head>
+
+	<title>AI BABY MONITORING WEBAPP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Indie+Flower&family=Montagu+Slab:opsz,wght@16..144,500&family=Oswald&family=Readex+Pro&family=Rubik+Moonrocks&family=Special+Elite&family=Titan+One&display=swap" rel="stylesheet">
+</head>
+
+<body background="https://media.istockphoto.com/photos/kids-educational-developing-toys-frame-on-white-background-top-view-picture-id1133458949?b=1&k=20&m=1133458949&s=170667a&w=0&h=00tWzq7sWkJQ8vPCCMpXkSOrKg1WHWWlQM4PF2KTyJQ=">
+  <center>
+    <h1 class="btn btn-info heading">AI BABY MONITORING WEBAPP</h1>
+    <p>Working of the webapp: The alarm will be played if the baby is not detected</p>
+    <h3 id="status" class="btn btn-warning"></h3>
+    <h3 id="number_of_objects" class="btn btn-warning"></h3><br>
+    <button onclick="start();" class="btn btn-success" id="start_model">START DETECTING</button>
+  </center>
+
+  <script src="main.js"></script>
+  
+</body>
+</html>
